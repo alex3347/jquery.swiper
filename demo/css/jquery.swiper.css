@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/*
+ * Swiper 1.0.0
+ *
+ * http://www.idangero.us/sliders/swiper/
+ *
+ * Copyright 2017, 夜雨声繁
+*/
+/* ===============================================================
+Basic Swiper Styles 
+================================================================*/
+* {
+  margin: 0;
+  padding: 0; }
+
+.swiper-showArea {
+  margin: 40px auto 0;
+  border: 5px solid #F1F1F1;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden; }
+
+.swiper-showArea li {
+  list-style: none; }
+
+.swiper-imgArea {
+  position: absolute; }
+
+.swiper-imgArea li {
+  float: left; }
+
+.swiper-btn {
+  position: absolute;
+  right: 0;
+  bottom: 5px; }
+
+.swiper-btn li {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  background-color: #F90;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  margin-right: 5px; }
+
+.swiper-btn li.swiper-current {
+  background-color: #f60; }
+
+.swiper-showArea .swiper-btnSlide {
+  width: 40px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  display: none; }
+
+.swiper-showArea:hover .swiper-btnSlide {
+  display: block; }
+
+.swiper-showArea .swiper-btnSlideL {
+  left: 0; }
+
+.swiper-showArea .swiper-btnSlideR {
+  right: 0; }
